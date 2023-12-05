@@ -12,7 +12,8 @@ from keras.models import load_model
 import h5py
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://hackathon_1shg_user:xf83AoqlmOiElqW3rgzgG4PhRG7oH6kQ@dpg-cjp2hlm1208c73c714tg-a.singapore-postgres.render.com:5432/sih'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://hackathon_1shg_user:xf83AoqlmOiElqW3rgzgG4PhRG7oH6kQ@dpg-cjp2hlm1208c73c714tg-a.singapore-postgres.render.com:5432/sih'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://locallane_user:cbrg1uHbaFU5895ZSKcmZrBs2J25A0E8@dpg-clklt4sjtl8s73ebcing-a.singapore-postgres.render.com:5432/locallane'
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USERNAME'] = 'gauravvermaa07076@gmail.com'

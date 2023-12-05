@@ -79,7 +79,7 @@ The patient-to-doctor ratio in India is highly variable and the need for skills 
 
 **Server:** FLASK
 
-**Database** Flask_SQLAlchemy
+**Database** PostgreSQL, Flask_SQLAlchemy
 
 **Languages** Javascript, Python
 
