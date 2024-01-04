@@ -808,7 +808,7 @@ to other pages section
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height:350px;
+    height:420px;
     background: var(--bg-light);
     padding: 0 10px;
     border:2px solid var(--fontcolordark);
@@ -948,3 +948,7 @@ to other pages section
     background: var(--fontcolordark);
 }
 
+
+.additional:hover{
+    cursor: pointer;
+}

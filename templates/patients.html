@@ -46,7 +46,9 @@
             
             </div>
         </nav>
+       
         <div class="allpatientpage_container">
+          <p>Please Click on the Patient's Name to Login to the Particular patient</p>
             <table class="table_container">
                 <tr>
                   <th><div>Name</div></th>
@@ -60,7 +62,7 @@
                 
                 {% for patient in patients %}
                 <tr>
-                    <td><div class= {{ patient.id }} id = {{ patient.email }} onclick="redirect(event)" >{{ patient.name }}</div></td>
+                    <td><div class= "{{ patient.id }} additional" id = {{ patient.email }} onclick="redirect(event)" >{{ patient.name }}</div></td>
                     <td><div id="x">{{ patient.email }}</div></td>
                     <td><div id="x">{{ patient.phone }}</div></td>
                     <td><div id="x">{{ patient.age }}</div></td>
